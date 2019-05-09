@@ -4,6 +4,9 @@
         "paths": {
             "c/reservationLayoutComponent": [
                 "reservationLayoutComponent/reservationLayoutComponent.js"
+            ],
+            "c/clientSearchComponent": [
+                "clientSearchComponent/clientSearchComponent.js"
             ]
         },
         "experimentalDecorators": true
