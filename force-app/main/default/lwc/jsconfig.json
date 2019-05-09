@@ -7,6 +7,9 @@
             ],
             "c/clientSearchComponent": [
                 "clientSearchComponent/clientSearchComponent.js"
+            ],
+            "c/clientListComponent": [
+                "clientListComponent/clientListComponent.js"
             ]
         },
         "experimentalDecorators": true
