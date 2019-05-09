@@ -10,6 +10,9 @@
             ],
             "c/clientListComponent": [
                 "clientListComponent/clientListComponent.js"
+            ],
+            "c/clientNewComponent": [
+                "clientNewComponent/clientNewComponent.js"
             ]
         },
         "experimentalDecorators": true

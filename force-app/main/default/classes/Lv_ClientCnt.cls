@@ -11,7 +11,9 @@ public with sharing class Lv_ClientCnt {
      * @Author AD
      * @date  08/05/2019
      * @description Method to search a client
-     * @param none
+     * @param Integer numero, 
+     * @param String prenom,
+     * @param String nom
      **/
     @AuraEnabled
     public static Map<String, Object> searchClient(Integer numero, String prenom, String nom){
@@ -32,4 +34,26 @@ public with sharing class Lv_ClientCnt {
         }
         return response;
     }
+
+    /**
+     * @Author AD
+     * @date  08/05/2019
+     * @description Method to search a client
+     * @param none
+     **/
+    @AuraEnabled
+    public static Map<String, Object> createClient(Lv_Client__c client){
+        Map<String, Object> response = new Map<String, Object>();
+        try {
+            insert client;
+            response.put('client', client);
+            response.put('error', false);
+        } catch (Exception e) {
+            response.put('error', true);
+            response.put('message', e.getMessage());
+            response.put('trace', e.getCause() + ' '+ e.getStackTraceString());
+        }
+        return response;
+    }
+    
 }
