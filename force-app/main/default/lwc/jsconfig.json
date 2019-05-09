@@ -1,7 +1,11 @@
 {
     "compilerOptions": {
         "baseUrl": ".",
-        "paths": {},
+        "paths": {
+            "c/reservationLayoutComponent": [
+                "reservationLayoutComponent/reservationLayoutComponent.js"
+            ]
+        },
         "experimentalDecorators": true
     },
     "include": [
