@@ -2,17 +2,32 @@
     "compilerOptions": {
         "baseUrl": ".",
         "paths": {
-            "c/reservationLayoutComponent": [
-                "reservationLayoutComponent/reservationLayoutComponent.js"
-            ],
-            "c/clientSearchComponent": [
-                "clientSearchComponent/clientSearchComponent.js"
-            ],
             "c/clientListComponent": [
                 "clientListComponent/clientListComponent.js"
             ],
             "c/clientNewComponent": [
                 "clientNewComponent/clientNewComponent.js"
+            ],
+            "c/clientSearchComponent": [
+                "clientSearchComponent/clientSearchComponent.js"
+            ],
+            "c/clientTileComponent": [
+                "clientTileComponent/clientTileComponent.js"
+            ],
+            "c/reservationLayoutComponent": [
+                "reservationLayoutComponent/reservationLayoutComponent.js"
+            ],
+            "c/VehiculeSearchComponent": [
+                "VehiculeSearchComponent/VehiculeSearchComponent.js"
+            ],
+            "c/vehiculeSearchComponent": [
+                "vehiculeSearchComponent/vehiculeSearchComponent.js"
+            ],
+            "c/VehiculeNewComponent": [
+                "VehiculeNewComponent/VehiculeNewComponent.js"
+            ],
+            "c/vehiculeNewComponent": [
+                "vehiculeNewComponent/vehiculeNewComponent.js"
             ]
         },
         "experimentalDecorators": true

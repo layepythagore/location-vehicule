@@ -1,5 +1,20 @@
 <template>
-    <lightning-card title="Liste Clients">
-        <div class="slds-m-around_medium"></div>
-    </lightning-card>
+    <lightning-card title="Liste Clients" icon-name="standard:customers">
+        <div class="slds-p-around_medium">
+            <template if:true={clients}>
+                <lightning-layout multiple-rows="true" pull-to-boundary="small">
+                    <template for:each={clients} for:item="client">
+                        <lightning-layout-item  key={client.Id} size="3" class="slds-p-around_x-small">
+                            <!--client tile -->
+                            <c-client-tile-component onselectclientevent={handleSelectClient} client={client} ></c-client-tile-component>
+                            <!--end client tile-->                            
+                        </lightning-layout-item>
+                    </template>
+                </lightning-layout>
+            </template>
+            <template if:false={clients}>
+                Bienvenue
+            </template>            
+        </div>
+    </lightning-card>    
 </template>

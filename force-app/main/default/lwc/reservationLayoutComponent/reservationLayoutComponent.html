@@ -1,14 +1,40 @@
 <template>
     <lightning-card title="Reservation d'un véhicule pour client" icon-name="custom:custom14">
-        <div class="slds-m-around_medium">
+        <div class="slds-p-around_medium">
             <div class="slds-grid">
                 <div class="slds-col slds-size_1-of-3">
-                    <c-client-search-component></c-client-search-component>
+                    <c-client-search-component onselectclienttoreservationevent={handleSelectClient} onclientlistevent={handleListClient}></c-client-search-component>
                 </div>
                 <div class="slds-col slds-size_2-of-3">
-                    <c-client-list-component></c-client-list-component>
+                <!--
+                    <lightning-card title="Liste Clients" icon-name="standard:customers">
+                        <div class="slds-p-around_medium">
+                            <template if:true={clients}>
+                                <lightning-layout multiple-rows="true" pull-to-boundary="small">
+                                    <template for:each={clients} for:item="cli">
+                                        <lightning-layout-item  key={cli.Id} size="3" class="slds-p-around_x-small">
+                                           
+                                            <c-client-tile-component client={cli} ></c-client-tile-component>
+                                          
+                                    </lightning-layout-item>
+                                    </template>
+                                </lightning-layout>
+                            </template>
+                            <template if:false={clients}>
+                                Bienvenue
+                            </template>            
+                        </div>
+                    </lightning-card>
+                -->                    
+                <c-client-list-component onselectclienttoreservationevent={handleSelectClient} clients={clients}></c-client-list-component>
                 </div>
-            </div>  
+            </div>            
+            <div class="slds-grid">
+                <c-client-new-component onselectclienttoreservationevent={handleSelectClient}></c-client-new-component>
+            </div>
+            <div class="slds-grid">
+                <c-vehicule-new-component></c-vehicule-new-component>
+            </div>
         </div>          
     </lightning-card>
 </template>

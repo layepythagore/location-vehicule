@@ -18,11 +18,17 @@ public with sharing class Lv_ClientCnt {
     @AuraEnabled
     public static Map<String, Object> searchClient(Integer numero, String prenom, String nom){
         Map<String, Object> response = new Map<String, Object>();
-        prenom = '%' + prenom + '%';
-        nom = '%' + nom + '%';
+        if (String.isNotBlank(nom)) {
+            nom = '%' + nom + '%';
+        }
+        if (String.isNotBlank(prenom)) {
+            prenom = '%' + prenom + '%';
+        }
+        
 
         try {
-            List<Lv_Client__c> clients = [SELECT Id, Lv_Prenom__c, Name, Lv_Identification_Numero__c FROM Lv_Client__c
+            List<Lv_Client__c> clients = [SELECT Id, Lv_Prenom__c, Name, Lv_Identification_Numero__c, Lv_Email__c,
+                Lv_Telephone__c, Lv_Adresse__c FROM Lv_Client__c
             WHERE Lv_Identification_Numero__c =:numero  OR Lv_Prenom__c LIKE :prenom OR Name LIKE :nom];
 
             response.put('clients', JSON.serialize(clients));
@@ -44,6 +50,7 @@ public with sharing class Lv_ClientCnt {
     @AuraEnabled
     public static Map<String, Object> createClient(Lv_Client__c client){
         Map<String, Object> response = new Map<String, Object>();
+        System.debug('##### lv client'+ JSON.serialize(client));
         try {
             insert client;
             response.put('client', client);

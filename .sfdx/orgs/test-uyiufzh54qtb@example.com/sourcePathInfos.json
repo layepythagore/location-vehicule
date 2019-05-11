@@ -79,10 +79,10 @@
         {
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\classes\\Lv_ClientCnt.cls",
             "isDirectory": false,
-            "size": 1288,
-            "modifiedTime": 1557394106792,
-            "changeTime": 1557394106792,
-            "contentHash": "0434e81022016dd3b05fbfe27a4888aaec8435d1",
+            "size": 2257,
+            "modifiedTime": 1557489659806,
+            "changeTime": 1557489459172,
+            "contentHash": "9051c93aa6e7725c2f8397e832c6a3e3713084bd",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -106,15 +106,15 @@
     [
         "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc",
             "isDirectory": true,
-            "size": 0,
-            "modifiedTime": 1557402118423,
-            "changeTime": 1557402118423,
-            "contentHash": "659bd3ad2069478a5c05299ee78eaa46fad81829",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false
+            "size": 0,
+            "modifiedTime": 1557591363341,
+            "changeTime": 1557591363341,
+            "isWorkspace": false,
+            "contentHash": "c45431ea56c77e0a65422f9c622d9fcdb92f3636"
         }
     ],
     [
@@ -152,10 +152,10 @@
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\reservationLayoutComponent\\reservationLayoutComponent.html",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 537,
-            "modifiedTime": 1557405535162,
-            "changeTime": 1557405535162,
-            "contentHash": "fa1f30e80e53ee99b9c530bbec07355f0545d42c"
+            "size": 2221,
+            "modifiedTime": 1557592531338,
+            "changeTime": 1557592531338,
+            "contentHash": "5b9657e0818c04755c8736933c7356462de01466"
         }
     ],
     [
@@ -163,10 +163,10 @@
         {
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\reservationLayoutComponent\\reservationLayoutComponent.js",
             "isDirectory": false,
-            "size": 122,
-            "modifiedTime": 1557393938317,
-            "changeTime": 1557393938317,
-            "contentHash": "21e9dbfc422df8aea9202246973c4c619deb74e9",
+            "size": 425,
+            "modifiedTime": 1557587810785,
+            "changeTime": 1557587691684,
+            "contentHash": "08e81b2ece22b54a99e0392a5e2901eaeee83061",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -202,10 +202,10 @@
         {
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\clientSearchComponent\\clientSearchComponent.html",
             "isDirectory": false,
-            "size": 725,
-            "modifiedTime": 1557402511363,
-            "changeTime": 1557396759622,
-            "contentHash": "9ed0dba05c39fa816764bbeeedadb05fc2433a73",
+            "size": 2970,
+            "modifiedTime": 1557579143201,
+            "changeTime": 1557579143201,
+            "contentHash": "959ef9cf262a939462a18135126bdb18a03e6867",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -215,10 +215,10 @@
         {
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\clientSearchComponent\\clientSearchComponent.js",
             "isDirectory": false,
-            "size": 523,
-            "modifiedTime": 1557397417277,
-            "changeTime": 1557397417277,
-            "contentHash": "b21b56a4be79067b7d08e1ed3404441bc03f2351",
+            "size": 1450,
+            "modifiedTime": 1557587857033,
+            "changeTime": 1557587857033,
+            "contentHash": "95edd8cc83249c19f404d750867e3b4b66aa3729",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -252,14 +252,14 @@
     [
         "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\clientListComponent\\clientListComponent.html",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\clientListComponent\\clientListComponent.html",
             "isDirectory": false,
+            "size": 984,
+            "modifiedTime": 1557585623394,
+            "changeTime": 1557585623394,
+            "contentHash": "4afd8ff670fd4f05c10a40f769d3edc907ba504b",
             "isMetadataFile": false,
-            "size": 136,
-            "modifiedTime": 1557405392000,
-            "changeTime": 1557405392000,
-            "contentHash": "1e792f5086871dd80a8fc967780ae1bfa2b74ca3"
+            "state": "u"
         }
     ],
     [
@@ -267,10 +267,10 @@
         {
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\clientListComponent\\clientListComponent.js",
             "isDirectory": false,
-            "size": 109,
-            "modifiedTime": 1557402118434,
-            "changeTime": 1557402118434,
-            "contentHash": "a3a3825ffb9e6aef6a43b9ab723c0c7d5472bf86",
+            "size": 488,
+            "modifiedTime": 1557586000589,
+            "changeTime": 1557586000589,
+            "contentHash": "5db7ba4c7f79a2ec52c60f652d75273b6b56810c",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -286,6 +286,214 @@
             "contentHash": "d3bb175b1f8463036bafd1d601217e83116f184a",
             "isMetadataFile": true,
             "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\clientNewComponent",
+        {
+            "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\clientNewComponent",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1557409660841,
+            "changeTime": 1557409660841,
+            "contentHash": "9bd0d82fd2dcc3673a1cd8cfd0e65f547b2eadcf",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\clientNewComponent\\clientNewComponent.html",
+        {
+            "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\clientNewComponent\\clientNewComponent.html",
+            "isDirectory": false,
+            "size": 3998,
+            "modifiedTime": 1557579094126,
+            "changeTime": 1557579094126,
+            "contentHash": "0da657ccb334133a34880d0d186e1f8cdd6a0991",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\clientNewComponent\\clientNewComponent.js",
+        {
+            "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\clientNewComponent\\clientNewComponent.js",
+            "isDirectory": false,
+            "size": 1830,
+            "modifiedTime": 1557588180105,
+            "changeTime": 1557588180105,
+            "contentHash": "1b297ce04740dee32838bb0154414f29ba2356e4",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\clientNewComponent\\clientNewComponent.js-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\clientNewComponent\\clientNewComponent.js-meta.xml",
+            "isDirectory": false,
+            "size": 233,
+            "modifiedTime": 1557409660836,
+            "changeTime": 1557409660836,
+            "contentHash": "3b903986f012015c90945190e99051dbc76d74f8",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\clientTileComponent",
+        {
+            "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\clientTileComponent",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1557490378099,
+            "changeTime": 1557490378099,
+            "contentHash": "6e3f49573282838a0fef3c463364694015f5282d",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\clientTileComponent\\clientTileComponent.html",
+        {
+            "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\clientTileComponent\\clientTileComponent.html",
+            "isDirectory": false,
+            "size": 918,
+            "modifiedTime": 1557585067565,
+            "changeTime": 1557581948541,
+            "contentHash": "2da4b2ee3a0fa09e4efd29039d22f4d7f3f6b284",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\clientTileComponent\\clientTileComponent.js",
+        {
+            "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\clientTileComponent\\clientTileComponent.js",
+            "isDirectory": false,
+            "size": 400,
+            "modifiedTime": 1557585560261,
+            "changeTime": 1557585560261,
+            "contentHash": "0798834653b3c954358bfda584293fed54540653",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\clientTileComponent\\clientTileComponent.js-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\clientTileComponent\\clientTileComponent.js-meta.xml",
+            "isDirectory": false,
+            "size": 234,
+            "modifiedTime": 1557490378098,
+            "changeTime": 1557490378098,
+            "contentHash": "3934e9f8ba8d7a72aaa21f29acabac42bd084bcb",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\vehiculeNewComponent",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\vehiculeNewComponent",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1557591363358,
+            "changeTime": 1557591363358,
+            "contentHash": "be1b7ceec3c208d5afb6ef824931188e0ed2f719"
+        }
+    ],
+    [
+        "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\vehiculeSearchComponent",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\vehiculeSearchComponent",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1557591101412,
+            "changeTime": 1557591101412,
+            "contentHash": "7db18d853a4968794fb8c9fbab081fa2fb1019ce"
+        }
+    ],
+    [
+        "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\vehiculeNewComponent\\vehiculeNewComponent.html",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\vehiculeNewComponent\\vehiculeNewComponent.html",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 188,
+            "modifiedTime": 1557592361409,
+            "changeTime": 1557592361409,
+            "contentHash": "d810139bb3068c0db3158834f52ae2d802ede341"
+        }
+    ],
+    [
+        "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\vehiculeNewComponent\\vehiculeNewComponent.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\vehiculeNewComponent\\vehiculeNewComponent.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 659,
+            "modifiedTime": 1557592445567,
+            "changeTime": 1557592445567,
+            "contentHash": "a447ea5d70913b3466b2b10d2f8ca99170416194"
+        }
+    ],
+    [
+        "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\vehiculeNewComponent\\vehiculeNewComponent.js-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\vehiculeNewComponent\\vehiculeNewComponent.js-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 235,
+            "modifiedTime": 1557591363357,
+            "changeTime": 1557591363357,
+            "contentHash": "4f22e99c618fe892508a24ace2d79571c348c207"
+        }
+    ],
+    [
+        "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\vehiculeSearchComponent\\vehiculeSearchComponent.html",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\vehiculeSearchComponent\\vehiculeSearchComponent.html",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 27,
+            "modifiedTime": 1557591101414,
+            "changeTime": 1557591101414,
+            "contentHash": "f77f405276fce2c457b8423303ffccb5a455abce"
+        }
+    ],
+    [
+        "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\vehiculeSearchComponent\\vehiculeSearchComponent.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\vehiculeSearchComponent\\vehiculeSearchComponent.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 119,
+            "modifiedTime": 1557591341051,
+            "changeTime": 1557591341051,
+            "contentHash": "ec4a8f1208eb0acf70c16e82de0f08c47d4175e1"
+        }
+    ],
+    [
+        "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\vehiculeSearchComponent\\vehiculeSearchComponent.js-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\tp\\location-vehicule\\force-app\\main\\default\\lwc\\vehiculeSearchComponent\\vehiculeSearchComponent.js-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 238,
+            "modifiedTime": 1557591101410,
+            "changeTime": 1557591101410,
+            "contentHash": "db9b9f4a7cb3cd4638c4c9ca55269a9ba2579c2d"
         }
     ]
 ]

@@ -1,16 +1,54 @@
 <template>
-    <lightning-card title="Sear Client">
+    <lightning-card title="Rechercher un Client" icon-name="standard:search">
         <div class="slds-m-around_medium">
-            <lightning-input placeholder="Numero Identification" value={numero}></lightning-input>
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="form-element-01">Numero Identification</label>
+                    <div class="slds-form-element__control">
+                        <lightning-input type="number" placeholder="Numero Identification" value={numero} onchange={handleNumero}></lightning-input>
+                    </div>
+                </div>
+
+                <fieldset class="slds-form-element slds-form-element_compound">
+                    <div class="slds-form-element__control">
+                        <div class="slds-form-element__row">
+                            <div class="slds-size_1-of-2">
+                                <div class="slds-form-element">
+                                    <label class="slds-form-element__label" for="input-01"></label>
+                                    <div class="slds-form-element__control">
+                                        <lightning-input placeholder="Prenom" value={prenom} onchange={handlePrenom}></lightning-input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slds-size_1-of-2">
+                                <div class="slds-form-element">
+                                    <label class="slds-form-element__label" for="input-02"></label>
+                                    <div class="slds-form-element__control">
+                                        <lightning-input placeholder="Nom" value={nom} onchange={handleNom}></lightning-input>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <br/><br/>
+                <div class="slds-form-element__control">
+                    <div class="slds-form-element__row">
+                        <lightning-button label="Search" onclick={search}></lightning-button>
+                    </div>
+                </div>
+
+            <!--
+            <lightning-input type="number" placeholder="Numero Identification" value={numero} onchange={handleNumero}></lightning-input>
             <div class="slds-grid slds-wrap">
                 <div class="slds-col slds-size_1-of-2">
-                    <lightning-input placeholder="Prenom" value={prenom}></lightning-input>
+                    <lightning-input placeholder="Prenom" value={prenom} onchange={handlePrenom}></lightning-input>
                 </div>
                 <div class="slds-col slds-size_1-of-2">
-                    <lightning-input placeholder="Nom" value={nom}></lightning-input>
+                    <lightning-input placeholder="Nom" value={nom} onchange={handleNom}></lightning-input>
                 </div>
             </div>
             <lightning-button label="Search" onclick={search}></lightning-button>
+            -->
         </div>
     </lightning-card>
 </template>
