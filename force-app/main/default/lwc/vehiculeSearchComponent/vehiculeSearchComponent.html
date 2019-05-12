@@ -7,25 +7,19 @@
                         <div class="slds-size_1-of-2">
                             <div class="slds-form-element">
                                 <label class="slds-form-element__label" for="input-01"></label>
-                                <lightning-card title="Select Modele " icon-name="custom:custom19">
-                                    <template if:true={allModeles}>
-                                        <div class="slds-m-around_medium">                        
-                                            <select onchange={handleModele} id="modele">
-                                                <template for:each={allModeles} for:item="item">
-                                                    <option value={item} key={item}>{item}</option>
-                                                </template>
-                                            </select>
-                                        </div>
-                                    </template>
-                                </lightning-card>
+                                <template if:true={allModeles}>                                                             
+                                    <select class="slds-select" id="modele">
+                                        <template for:each={allModeles} for:item="item">
+                                            <option value={item} key={item}>{item}</option>
+                                        </template>
+                                    </select>
+                                </template>
                             </div>
                         </div>
                         <div class="slds-size_1-of-2">
                             <div class="slds-form-element">
                                 <label class="slds-form-element__label" for="input-02"></label>
-                                <div class="slds-form-element__control">
-                                    <lightning-input placeholder="Couleur" value={couleur} onchange={handleCouleur}></lightning-input>
-                                </div>
+                                <lightning-input class="couleur" placeholder="Couleur" value={couleur}></lightning-input>
                             </div>
                         </div>
                     </div>

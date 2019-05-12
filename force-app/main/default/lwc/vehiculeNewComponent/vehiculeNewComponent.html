@@ -1,7 +1,9 @@
 <template>
-    <lightning-record-form
-        object-api-name={vehiculeObject}
-        fields={myFields}
-        onsuccess={handleVehiculeCreated}>
-    </lightning-record-form>
+    <lightning-card title="Add new Vehicule" icon-name="standard:work_order">
+        <lightning-record-form
+            object-api-name={vehiculeObject}
+            fields={myFields}
+            onsuccess={handleVehiculeCreated}>
+        </lightning-record-form>
+    </lightning-card>
 </template>

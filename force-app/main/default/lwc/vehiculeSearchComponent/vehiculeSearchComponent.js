@@ -25,19 +25,15 @@ export default class VehiculeSearchComponent extends LightningElement {
             console.log('error', error);
         })
     }
-    handleModele(){
-        var select = document.getElementById('modele');
-        this.modele = select.options[select.selectedIndex].value;
-        console.log('this.modele', this.modele);
-    }
-    handleCouleur(event){
-        this.couleur = event.target.value;
-        console.log('this.couleur', this.couleur);
-    }
     search(){
+        this.modele = this.template.querySelector('select').value;
+        this.couleur = this.template.querySelector('.couleur').value;
+        console.log('this.couleur', this.couleur);
+        console.log('this.modele', this.modele);
         searchVehicule({'modele': this.modele, 'couleur': this.couleur}).then(result => {
             if(result.error === false){
-                const vehiculeListEvent = new CustomEvent('vehiculelistevent', {
+                console.log('vehicules', JSON.parse(result.vehicules));
+                const vehiculeListEvent = new CustomEvent('vehiculelistevt', {
                     detail: JSON.parse(result.vehicules)
                 });
                 this.dispatchEvent(vehiculeListEvent);

@@ -27,7 +27,15 @@ export default class ReservationLayoutComponent extends LightningElement {
                 mode: 'dismissable'
             });
             this.dispatchEvent(evt);
+        } else if(vehicules.length === 0){
+            const evt = new ShowToastEvent({
+                title: 'Pas de véhicules trouvés',
+                message: 'Vous pouvez créé un nouveau véhicule qui sera directement associé à la réservation',
+                variant: 'info',
+                mode: 'dismissable'
+            });
+            this.dispatchEvent(evt);
         }
-        this.vehicules =vehicules;
+        this.vehicules = vehicules;
     }
 }

@@ -49,16 +49,13 @@ public with sharing class VehiculeCnt {
     @AuraEnabled
     public static Map<String, Object> searchVehicule(String modele, String couleur){
         Map<String, Object> response = new Map<String, Object>();
-        if (String.isNotBlank(modele)) {
-            modele = '%' + modele + '%';
-        }
         if (String.isNotBlank(couleur)) {
             couleur = '%' + couleur + '%';
         }        
 
         try {
             List<Lv_Vehicule__c> vehicules = [SELECT Id, Lv_Couleur__c, Lv_Matricule__c, Lv_Modele__c FROM Lv_Vehicule__c
-            WHERE Lv_Couleur__c LIKE :couleur OR Lv_Modele__c LIKE :modele];
+            WHERE Lv_Couleur__c LIKE :couleur OR Lv_Modele__c =:modele];
 
             response.put('vehicules', JSON.serialize(vehicules));
             response.put('error', false);

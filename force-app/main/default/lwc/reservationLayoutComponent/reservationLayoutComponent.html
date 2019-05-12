@@ -33,7 +33,12 @@
                 <c-client-new-component onselectclienttoreservationevent={handleSelectClient}></c-client-new-component>
             </div>
             <div class="slds-grid">
-                <c-vehicule-search-component onvehiculelistevent={handleSelectVehicule}></c-vehicule-search-component>
+                <div class="slds-col slds-size_1-of-3"> 
+                    <c-vehicule-search-component onvehiculelistevt={handleSelectVehicule}></c-vehicule-search-component>
+                </div>
+                <div class="slds-col slds-size_2-of-3">
+                    <c-vehicule-list-component vehicules={vehicules}></c-vehicule-list-component>
+                </div>
             </div>
             <div class="slds-grid">
                 <c-vehicule-new-component></c-vehicule-new-component>
