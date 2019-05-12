@@ -12,5 +12,11 @@ export default class VehiculeNewComponent extends LightningElement {
 
     handleVehiculeCreated(event){
         console.log('event vehicule created ', JSON.stringify(event));
+        /*let vehicule ={
+            'Lv_Modele__c': 
+        };
+
+        event.detail.fields;
+        event.detail.id;*/
     }
 }

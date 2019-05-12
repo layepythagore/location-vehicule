@@ -1,3 +1,42 @@
 <template>
-    
+    <lightning-card title="Rechercher une Voiture" icon-name="standard:search">
+        <div class="slds-m-around_medium">
+            <fieldset class="slds-form-element slds-form-element_compound">
+                <div class="slds-form-element__control">
+                    <div class="slds-form-element__row">
+                        <div class="slds-size_1-of-2">
+                            <div class="slds-form-element">
+                                <label class="slds-form-element__label" for="input-01"></label>
+                                <lightning-card title="Select Modele " icon-name="custom:custom19">
+                                    <template if:true={allModeles}>
+                                        <div class="slds-m-around_medium">                        
+                                            <select onchange={handleModele} id="modele">
+                                                <template for:each={allModeles} for:item="item">
+                                                    <option value={item} key={item}>{item}</option>
+                                                </template>
+                                            </select>
+                                        </div>
+                                    </template>
+                                </lightning-card>
+                            </div>
+                        </div>
+                        <div class="slds-size_1-of-2">
+                            <div class="slds-form-element">
+                                <label class="slds-form-element__label" for="input-02"></label>
+                                <div class="slds-form-element__control">
+                                    <lightning-input placeholder="Couleur" value={couleur} onchange={handleCouleur}></lightning-input>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <br/><br/>
+            <div class="slds-form-element__control">
+                <div class="slds-form-element__row">
+                    <lightning-button label="Search" onclick={search}></lightning-button>
+                </div>
+            </div>
+        </div>
+    </lightning-card>    
 </template>
