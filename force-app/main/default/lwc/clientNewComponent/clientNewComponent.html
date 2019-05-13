@@ -9,15 +9,15 @@
                             <div class="slds-form-element">
                                 <label class="slds-form-element__label" for="input-01"></label>
                                 <div class="slds-form-element__control">
-                                    <lightning-input placeholder="Prenom" value={prenom} onchange={handleChangePrenom}></lightning-input>
-                                </div>
+                                    <lightning-input class="prenom" placeholder="Prenom" value={prenom}></lightning-input>
+                                </div> 
                             </div>
                         </div>
                         <div class="slds-size_1-of-2">
                             <div class="slds-form-element">
                                 <label class="slds-form-element__label" for="input-02"></label>
                                 <div class="slds-form-element__control">
-                                        <lightning-input placeholder="Nom" value={nom} onchange={handleChangeNom}></lightning-input>
+                                    <lightning-input class="nom" placeholder="Nom" value={nom}></lightning-input>
                                 </div>
                             </div>
                         </div>
@@ -28,7 +28,7 @@
             <div class="slds-form-element">
                 <label class="slds-form-element__label" for="form-element-01"></label>
                 <div class="slds-form-element__control">
-                    <lightning-input type="number" placeholder="Numero Identification" value={numero} onchange={handleChangeNumero}></lightning-input>
+                    <lightning-input class="numero" type="number" placeholder="Numero Identification" value={numero}></lightning-input>
                 </div>
             </div>
 
@@ -39,16 +39,16 @@
                             <div class="slds-form-element">
                                 <label class="slds-form-element__label" for="input-01"></label>
                                 <div class="slds-form-element__control">
-                                    <lightning-input type="email" placeholder="Email" value={email} onchange={handleChangeEmail}></lightning-input>
+                                    <lightning-input class="email" type="email" placeholder="Email" value={email} ></lightning-input>
                                 </div>
                             </div>
-                        </div>
+                        </div> 
                         <div class="slds-size_1-of-2">
                             <div class="slds-form-element">
                                 <label class="slds-form-element__label" for="input-02"></label>
                                 <div class="slds-form-element__control">
-                                    <lightning-input type="tel" pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="Tel Ex: XX-XXX-XX-XX"
-                                        value={telephone} onchange={handleChangeTelephone}></lightning-input>
+                                    <lightning-input class="telephone" type="tel" pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}" 
+                                        placeholder="Tel Ex: XX-XXX-XX-XX" value={telephone}></lightning-input>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +59,7 @@
             <div class="slds-form-element">
                 <label class="slds-form-element__label" for="form-element-01"></label>
                 <div class="slds-form-element__control">
-                    <lightning-textarea placeholder="Addresse" value={addresse} onchange={handleChangeAddresse}></lightning-textarea>
+                    <lightning-textarea class="addresse" placeholder="Addresse" value={addresse}></lightning-textarea>
                 </div>
             </div>
 

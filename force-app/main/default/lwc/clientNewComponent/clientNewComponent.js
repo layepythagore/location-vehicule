@@ -1,6 +1,8 @@
 /* eslint-disable no-console */
 import { LightningElement, api, track } from 'lwc';
 import createClient from '@salesforce/apex/Lv_ClientCnt.createClient';
+import { ShowToastEvent } from 'lightning/platformShowToastEvent';
+
 export default class ClientNewComponent extends LightningElement {
 
     @track numero;
@@ -10,34 +12,15 @@ export default class ClientNewComponent extends LightningElement {
     @api telephone;
     @api addresse;
 
-    handleChangePrenom(event){
-        event.preventDefault();
-        this.prenom = event.target.value;
-    }
-    handleChangeNom(event){
-        event.preventDefault();
-        this.nom = event.target.value;
-    }
-    handleChangeNumero(event){
-        event.preventDefault();
-        this.numero = event.target.value;
-    }
-    handleChangeEmail(event){
-        event.preventDefault();
-        this.email = event.target.value;
-    }
-    handleChangeTelephone(event){
-        event.preventDefault();
-        this.telephone = event.target.value;
-    }
-    handleChangeAddresse(event){
-        event.preventDefault();
-        this.addresse = event.target.value;
-    }
-
     save(){
+        this.numero = this.template.querySelector('.numero').value;
+        this.prenom = this.template.querySelector('.prenom').value;
+        this.nom = this.template.querySelector('.nom').value;
+        this.email = this.template.querySelector('.email').value;
+        this.telephone = this.template.querySelector('.telephone').value;
+        this.addresse = this.template.querySelector('.addresse').value;        
+
         let client =  { 'sobjectType': 'Lv_Client__c', };
-        console.log('Lv_Identification_Numero__c', this.numero);
         client.Lv_Adresse__c = this.addresse;
         client.Name = this.nom;
         client.Lv_Email__c = this.email;
@@ -46,10 +29,28 @@ export default class ClientNewComponent extends LightningElement {
         client.Lv_Telephone__c = this.telephone;
         createClient({client: client}).then(result => {
             console.log('result ', JSON.stringify(result));
-            const selectClientToReservationEvent = new CustomEvent('selectclienttoreservationevent',{
-                detail: result.client.Id
-            });
-            this.dispatchEvent(selectClientToReservationEvent);
+            if(result.error === false){
+                const evt = new ShowToastEvent({
+                    title: 'Info',
+                    message: 'Client créé',
+                    variant: 'success',
+                    mode: 'dismissable'
+                });
+                this.dispatchEvent(evt);
+
+                const selectClientEvent = new CustomEvent('selectclientevent',{
+                    detail: result.client.Id
+                });
+                this.dispatchEvent(selectClientEvent)
+            } else {
+                const evt = new ShowToastEvent({
+                    title: 'Info',
+                    message: result.trace + ' ' +result.message,
+                    variant: 'error',
+                    mode: 'dismissable'
+                });
+                this.dispatchEvent(evt);
+            }            
         }).catch(error => {
             console.error('error '+error);
         })

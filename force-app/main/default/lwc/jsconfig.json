@@ -17,6 +17,9 @@
             "c/reservationLayoutComponent": [
                 "reservationLayoutComponent/reservationLayoutComponent.js"
             ],
+            "c/vehiculeComponent": [
+                "vehiculeComponent/vehiculeComponent.js"
+            ],
             "c/vehiculeListComponent": [
                 "vehiculeListComponent/vehiculeListComponent.js"
             ],
@@ -25,12 +28,6 @@
             ],
             "c/vehiculeSearchComponent": [
                 "vehiculeSearchComponent/vehiculeSearchComponent.js"
-            ],
-            "c/VehiculeComponent": [
-                "VehiculeComponent/VehiculeComponent.js"
-            ],
-            "c/vehiculeComponent": [
-                "vehiculeComponent/vehiculeComponent.js"
             ]
         },
         "experimentalDecorators": true

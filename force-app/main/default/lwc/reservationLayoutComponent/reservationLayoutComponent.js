@@ -14,16 +14,23 @@ export default class ReservationLayoutComponent extends LightningElement {
     handleSelectClient(event){
         this.IdSelectedClient = event.detail;
         console.log('IdSelectedClient', this.IdSelectedClient);
+        const evt = new ShowToastEvent({
+            title: 'Info',
+            message: 'client associé à la réservation',
+            variant: 'success',
+            mode: 'dismissable'
+        });
+        this.dispatchEvent(evt);
     }
     handleSelectVehicule(event){
         let vehicules = event.detail;
-        console.log('vehicules ', JSON.parse(vehicules));
+        //console.log('vehicules ', JSON.parse(vehicules));
         if(vehicules.length === 1){
             this.IdSelectedVehicules = vehicules[0].Id;
             const evt = new ShowToastEvent({
                 title: 'Info',
                 message: 'Une voiture trouvée et associée à la réservation',
-                variant: 'info',
+                variant: 'success',
                 mode: 'dismissable'
             });
             this.dispatchEvent(evt);
@@ -37,5 +44,15 @@ export default class ReservationLayoutComponent extends LightningElement {
             this.dispatchEvent(evt);
         }
         this.vehicules = vehicules;
+    }
+    selectVehicule(event){
+        this.IdSelectedVehicules = event.detail;
+        const evt = new ShowToastEvent({
+            title: 'Info',
+            message: 'Véhicule associé à la réservation',
+            variant: 'success',
+            mode: 'dismissable'
+        });
+        this.dispatchEvent(evt);
     }
 }

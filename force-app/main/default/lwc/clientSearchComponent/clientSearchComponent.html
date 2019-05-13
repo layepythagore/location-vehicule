@@ -4,9 +4,9 @@
                 <div class="slds-form-element">
                     <label class="slds-form-element__label" for="form-element-01">Numero Identification</label>
                     <div class="slds-form-element__control">
-                        <lightning-input type="number" placeholder="Numero Identification" value={numero} onchange={handleNumero}></lightning-input>
+                        <lightning-input class="numero" type="number" placeholder="Numero Identification" value={numero}></lightning-input>
                     </div>
-                </div>
+                </div> 
 
                 <fieldset class="slds-form-element slds-form-element_compound">
                     <div class="slds-form-element__control">
@@ -15,7 +15,7 @@
                                 <div class="slds-form-element">
                                     <label class="slds-form-element__label" for="input-01"></label>
                                     <div class="slds-form-element__control">
-                                        <lightning-input placeholder="Prenom" value={prenom} onchange={handlePrenom}></lightning-input>
+                                        <lightning-input class="prenom" placeholder="Prenom" value={prenom}></lightning-input>
                                     </div>
                                 </div>
                             </div>
@@ -23,7 +23,7 @@
                                 <div class="slds-form-element">
                                     <label class="slds-form-element__label" for="input-02"></label>
                                     <div class="slds-form-element__control">
-                                        <lightning-input placeholder="Nom" value={nom} onchange={handleNom}></lightning-input>
+                                        <lightning-input class="nom" placeholder="Nom" value={nom}></lightning-input>
                                     </div>
                                 </div>
                             </div>

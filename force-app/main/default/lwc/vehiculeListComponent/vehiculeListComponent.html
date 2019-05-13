@@ -6,13 +6,13 @@
                     <template for:each={vehicules} for:item="vehicule">
                         <lightning-layout-item  key={vehicule.Id} size="3" class="slds-p-around_x-small">
                             <!-- vehicule -->
-                            <c-vehicule-component vehicule={vehicule}></c-vehicule-component>
+                            <c-vehicule-component onselectvehiculeevent={handleSelectVehicule} vehicule={vehicule}></c-vehicule-component>
                             <!--vehicule -->                            
                         </lightning-layout-item>
                     </template>
                 </lightning-layout>
             </template>
-            <template if:false={clients}>
+            <template if:false={vehicules}>
                 Bienvenue
             </template>            
         </div>
