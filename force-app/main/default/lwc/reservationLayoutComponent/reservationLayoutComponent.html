@@ -30,7 +30,7 @@
                     </div>
                     <div class="slds-col slds-size_2-of-3">
                         <template if:true={IdReservation}>
-                            <c-reservation-details-component reservation={IdReservation}></c-reservation-details-component>
+                            <c-reservation-details-component reservation={IdReservation} client={IdSelectedClient} vehicule={IdSelectedVehicule} ></c-reservation-details-component>
                         </template>
                     </div>
                 </template>
