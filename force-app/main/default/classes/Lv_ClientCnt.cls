@@ -25,7 +25,6 @@ public with sharing class Lv_ClientCnt {
             prenom = '%' + prenom + '%';
         }
         
-
         try {
             List<Lv_Client__c> clients = [SELECT Id, Lv_Prenom__c, Name, Lv_Identification_Numero__c, Lv_Email__c,
                 Lv_Telephone__c, Lv_Adresse__c FROM Lv_Client__c

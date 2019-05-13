@@ -1,19 +1,19 @@
 <template>
     <div class="slds-p-horizontal_small">
-        <a onclick={selectClient}>
-            <div class="slds-media">
+        <div class="slds-media">
+            <a onclick={selectClient}>
                 <div class="slds-media__figure">
                     <lightning-icon icon-name="standard:client" alternative-text="Client"></lightning-icon>
                 </div>
-                <div class="slds-media__body">
-                    <p class="slds-m-bottom_xx-small">{client.Lv_Prenom__c}</p>
-                    <p class="slds-m-bottom_xx-small">{client.Name}</p>      
-                    <p class="slds-m-bottom_xx-small">{client.Lv_Identification_Numero__c}</p>
-                    <p class="slds-m-bottom_xx-small">{client.Lv_Email__c}</p>
-                    <p class="slds-m-bottom_xx-small">{client.Lv_Telephone__c}</p>
-                    <p class="slds-m-bottom_x">{client.Lv_Adresse__c}</p>
-                </div>
+            </a>
+            <div class="slds-media__body">
+                <p class="slds-m-bottom_xx-small">{client.Lv_Prenom__c}</p>
+                <p class="slds-m-bottom_xx-small">{client.Name}</p>      
+                <p class="slds-m-bottom_xx-small">{client.Lv_Identification_Numero__c}</p>
+                <p class="slds-m-bottom_xx-small">{client.Lv_Email__c}</p>
+                <p class="slds-m-bottom_xx-small">{client.Lv_Telephone__c}</p>
+                <p class="slds-m-bottom_x">{client.Lv_Adresse__c}</p>
             </div>
-        </a>
+        </div>
     </div>
 </template>

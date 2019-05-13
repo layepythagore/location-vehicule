@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { LightningElement } from 'lwc';
+import { LightningElement } from 'lwc'; 
 import VEHICULE_OBJECT from '@salesforce/schema/Lv_Vehicule__c';
 import MODELE_FIELD from '@salesforce/schema/Lv_Vehicule__c.Lv_Modele__c';
 import COULEUR_FIELD from '@salesforce/schema/Lv_Vehicule__c.Lv_Couleur__c';
@@ -18,7 +18,7 @@ export default class VehiculeNewComponent extends LightningElement {
             message: 'Véhicule créé',
             variant: 'success',
             mode: 'dismissable'
-        });
+        }); 
         this.dispatchEvent(evt);
         const selectVehiculeEvt = new CustomEvent('selectvehiculeevt', {
             detail: event.detail.id

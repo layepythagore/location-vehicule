@@ -28,6 +28,18 @@
             ],
             "c/vehiculeSearchComponent": [
                 "vehiculeSearchComponent/vehiculeSearchComponent.js"
+            ],
+            "c/ReservationDetailsComponent": [
+                "ReservationDetailsComponent/ReservationDetailsComponent.js"
+            ],
+            "c/reservationDetailsComponent": [
+                "reservationDetailsComponent/reservationDetailsComponent.js"
+            ],
+            "c/ReservationNewComponent": [
+                "ReservationNewComponent/ReservationNewComponent.js"
+            ],
+            "c/reservationNewComponent": [
+                "reservationNewComponent/reservationNewComponent.js"
             ]
         },
         "experimentalDecorators": true

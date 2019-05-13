@@ -1,16 +1,16 @@
 <template>
-    <div class="slds-p-horizontal_small">
-        <a  onclick={selectVehicule}>
-            <div class="slds-media">
+    <div class="slds-p-horizontal_small">        
+        <div class="slds-media">
+            <a  onclick={selectVehicule}>
                 <div class="slds-media__figure">
                     <lightning-icon icon-name="standard:work_order" alternative-text="Vehicule"></lightning-icon>
                 </div>
-                <div class="slds-media__body">
-                    <p class="slds-m-bottom_xx-small">{vehicule.Lv_Modele__c}</p>
-                    <p class="slds-m-bottom_xx-small">{vehicule.Lv_Couleur__c}</p>      
-                    <p class="slds-m-bottom_xx-small">{vehicule.Lv_Matricule__c}</p>
-                </div>
+            </a>
+            <div class="slds-media__body">
+                <p class="slds-m-bottom_xx-small">{vehicule.Lv_Modele__c}</p>
+                <p class="slds-m-bottom_xx-small">{vehicule.Lv_Couleur__c}</p>      
+                <p class="slds-m-bottom_xx-small">{vehicule.Lv_Matricule__c}</p>
             </div>
-        </a>
+        </div>
     </div>
 </template>

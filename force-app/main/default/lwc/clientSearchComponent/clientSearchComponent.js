@@ -12,16 +12,18 @@ export default class ClientSearchComponent extends LightningElement {
         this.numero = this.template.querySelector('.numero').value;
         this.prenom = this.template.querySelector('.prenom').value;
         this.nom = this.template.querySelector('.nom').value;
-        console.log(this.numero + ' ' + this.prenom + ' ' + this.nom);
-        searchClient({numero: this.numero, prenom: this.prenom,  nom: this.nom}).then(result => {
+
+        console.log('fields ' +this.numero + ' ' + this.prenom + ' ' + this.nom);
+        console.log('type numero '+ typeof this.numero);
+        searchClient({numero: Number(this.numero), prenom: this.prenom,  nom: this.nom}).then(result => {
             if(result.error == false){
-                let clients = JSON.parse(result.clients);
-                if(clients.length == 1){
+                //let clients = JSON.parse(result.clients);
+                /*if(clients.length == 1){
                     const selectClientToReservationEvent = new CustomEvent('selectclienttoreservationevent',{
                         detail: clients[0].Id
                     });
                     this.dispatchEvent(selectClientToReservationEvent);
-                }
+                }*/
                 const clientListEvent = new CustomEvent('clientlistevent', {
                     detail: JSON.parse(result.clients)
                 });

@@ -10,9 +10,13 @@ export default class ClientListComponent extends LightningElement {
     }
 
     handleSelectClient(event){
-        const selectClientToReservationEvent = new CustomEvent('selectclienttoreservationevent',{
+        /*const selectClientToReservationEvent = new CustomEvent('selectclienttoreservationevent',{
             detail: event.detail
         });
-        this.dispatchEvent(selectClientToReservationEvent);
+        this.dispatchEvent(selectClientToReservationEvent);*/
+        const selectClientEvt = new CustomEvent('selectclientevt',{
+            detail: event.detail
+        });
+        this.dispatchEvent(selectClientEvt);
     }
 }

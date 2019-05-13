@@ -3,10 +3,10 @@
         <div class="slds-p-around_medium">
             <div class="slds-grid">
                 <div class="slds-col slds-size_1-of-3">
-                    <c-client-search-component onselectclienttoreservationevent={handleSelectClient} onclientlistevent={handleListClient}></c-client-search-component>
+                    <c-client-search-component onclientlistevent={handleListClient}></c-client-search-component>
                 </div>
                 <div class="slds-col slds-size_2-of-3">                           
-                <c-client-list-component onselectclienttoreservationevent={handleSelectClient} clients={clients}></c-client-list-component>
+                    <c-client-list-component onselectclientevt={handleSelectClient} clients={clients}></c-client-list-component>
                 </div>
             </div>            
             <div class="slds-grid">
@@ -22,6 +22,18 @@
             </div>
             <div class="slds-grid">
                 <c-vehicule-new-component onselectvehiculeevt={selectVehicule}></c-vehicule-new-component>
+            </div>
+            <div class="slds-grid">
+                <template if:true={isSubmittable}>
+                    <div class="slds-col slds-size_1-of-3">
+                        <c-reservation-new-component onreservationcreated={handleShowResevation} client={IdSelectedClient} vehicule={IdSelectedVehicule}></c-reservation-new-component>
+                    </div>
+                    <div class="slds-col slds-size_2-of-3">
+                        <template if:true={IdReservation}>
+                            <c-reservation-details-component reservation={IdReservation}></c-reservation-details-component>
+                        </template>
+                    </div>
+                </template>
             </div>
         </div>          
     </lightning-card>
