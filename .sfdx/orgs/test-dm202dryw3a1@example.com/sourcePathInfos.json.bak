@@ -597,7 +597,7 @@
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\lwc\\reservationLayoutComponent\\reservationLayoutComponent.html",
             "isDirectory": false,
             "size": 2246,
-            "modifiedTime": 1557753098337,
+            "modifiedTime": 1557754975218,
             "changeTime": 1557752333546,
             "contentHash": "7ad190332fd85503c5a8c7ff2cfb631077dc25eb",
             "isMetadataFile": false,
@@ -610,10 +610,10 @@
         {
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\lwc\\reservationLayoutComponent\\reservationLayoutComponent.js",
             "isDirectory": false,
-            "size": 3344,
-            "modifiedTime": 1557753947896,
-            "changeTime": 1557752850658,
-            "contentHash": "8d636cf7966532cdafa7891ed80cbe642a08c2bc",
+            "size": 3355,
+            "modifiedTime": 1557755045008,
+            "changeTime": 1557755045008,
+            "contentHash": "8f9010d724d81ed80c6b472695dd799173b0a949",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -1408,14 +1408,14 @@
     [
         "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\lwc\\reservationDetailsComponent\\reservationDetailsComponent.html",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\lwc\\reservationDetailsComponent\\reservationDetailsComponent.html",
             "isDirectory": false,
-            "size": 346,
-            "modifiedTime": 1557752363652,
-            "changeTime": 1557752363652,
-            "contentHash": "a360b91b7cb8b46ddf45d174e44c356cb121821f",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 655,
+            "modifiedTime": 1557755460382,
+            "changeTime": 1557755460382,
+            "contentHash": "26310dca1d66b44d80cf3b6a864388a7863a52d1"
         }
     ],
     [
@@ -1423,10 +1423,10 @@
         {
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\lwc\\reservationDetailsComponent\\reservationDetailsComponent.js",
             "isDirectory": false,
-            "size": 208,
-            "modifiedTime": 1557752971851,
-            "changeTime": 1557752971851,
-            "contentHash": "c0480551980230981e8f40d8c5a26ba1756d647b",
+            "size": 226,
+            "modifiedTime": 1557754848787,
+            "changeTime": 1557754848787,
+            "contentHash": "194d64421a9cca6fae249cfdf8db3feb36eb1808",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -1460,14 +1460,14 @@
     [
         "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\lwc\\reservationNewComponent\\reservationNewComponent.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\lwc\\reservationNewComponent\\reservationNewComponent.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1860,
             "modifiedTime": 1557753913311,
             "changeTime": 1557753913311,
-            "contentHash": "f4d766bc31cffb48b60405b1312f949871e5e1e0"
+            "contentHash": "f4d766bc31cffb48b60405b1312f949871e5e1e0",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [

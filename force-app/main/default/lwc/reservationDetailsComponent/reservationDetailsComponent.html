@@ -1,10 +1,10 @@
 <template>
     <lightning-card title="Réservations Détails" icon-name="standard:customer_portal_users">
-        <lightning-record-form
-            record-id={reservation}
-            object-api-name="Lv_Reservation__c"
-            layout-type="Compact"
-            mode="view">
-        </lightning-record-form>
+        <lightning-record-view-form record-id={reservation} object-api-name="Lv_Reservation__c" layout-type="Compact" mode="view">
+            <lightning-output-field field-name='Missions__c'></lightning-output-field>
+            <lightning-output-field field-name='Date_Reservation__c'></lightning-output-field>
+            <lightning-output-field field-name='Date_Effective__c'></lightning-output-field>
+            <lightning-output-field field-name='Nombre_Jour__c'></lightning-output-field>
+        </lightning-record-view-form>
     </lightning-card>
 </template>

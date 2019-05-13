@@ -608,15 +608,15 @@
     [
         "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\lwc\\reservationLayoutComponent\\reservationLayoutComponent.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\lwc\\reservationLayoutComponent\\reservationLayoutComponent.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 3355,
             "modifiedTime": 1557755045008,
             "changeTime": 1557755045008,
-            "isWorkspace": false,
-            "contentHash": "8f9010d724d81ed80c6b472695dd799173b0a949"
+            "contentHash": "8f9010d724d81ed80c6b472695dd799173b0a949",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -1408,27 +1408,27 @@
     [
         "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\lwc\\reservationDetailsComponent\\reservationDetailsComponent.html",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\lwc\\reservationDetailsComponent\\reservationDetailsComponent.html",
             "isDirectory": false,
-            "size": 346,
-            "modifiedTime": 1557752363652,
-            "changeTime": 1557752363652,
-            "contentHash": "a360b91b7cb8b46ddf45d174e44c356cb121821f",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 673,
+            "modifiedTime": 1557755737863,
+            "changeTime": 1557755737863,
+            "contentHash": "95edcfffeb23b7f3998b98dd4c082b1ab3a93edd"
         }
     ],
     [
         "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\lwc\\reservationDetailsComponent\\reservationDetailsComponent.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\lwc\\reservationDetailsComponent\\reservationDetailsComponent.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 226,
             "modifiedTime": 1557754848787,
             "changeTime": 1557754848787,
-            "contentHash": "194d64421a9cca6fae249cfdf8db3feb36eb1808"
+            "contentHash": "194d64421a9cca6fae249cfdf8db3feb36eb1808",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
