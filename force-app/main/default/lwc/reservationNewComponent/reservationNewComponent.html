@@ -1,11 +1,13 @@
 <template>
     <lightning-card title="Add new Reservation" icon-name="standard:customer_portal_users">
-        <lightning-record-form
-            object-api-name={reservationObject}
-            fields={myFields} 
-            onsuccess={handleReservationCreated}
-            onsubmit={handleSubmit}
-            onerror={handleError}> 
-        </lightning-record-form>
+        <div class="slds-box slds-m-around_medium">
+            <lightning-record-form
+                object-api-name={reservationObject}
+                fields={myFields} 
+                onsuccess={handleReservationCreated}
+                onsubmit={handleSubmit}
+                onerror={handleError}> 
+            </lightning-record-form>
+        </div>
     </lightning-card>
 </template>

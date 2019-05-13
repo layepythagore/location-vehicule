@@ -1,31 +1,33 @@
 <template>
     <lightning-card title="Réservations Détails" icon-name="standard:customer_portal_users">
-        <lightning-record-view-form record-id={reservation} object-api-name="Lv_Reservation__c" layout-type="Compact" mode="view">
-            <div class="slds-grid">
-                <div class="slds-size_1-of-3">
-                    <lightning-output-field field-name='Missions__c'></lightning-output-field>
-                    <lightning-output-field field-name='Date_Reservation__c'></lightning-output-field>
-                    <lightning-output-field field-name='Date_Effective__c'></lightning-output-field>
-                    <lightning-output-field field-name='Nombre_Jour__c'></lightning-output-field>
+        <div class="slds-box slds-m-around_medium">
+            <lightning-record-view-form record-id={reservation} object-api-name="Lv_Reservation__c" layout-type="Compact" mode="view">
+                <div class="slds-grid">
+                    <div class="slds-size_1-of-3">
+                        <lightning-output-field field-name='Missions__c'></lightning-output-field>
+                        <lightning-output-field field-name='Date_Reservation__c'></lightning-output-field>
+                        <lightning-output-field field-name='Date_Effective__c'></lightning-output-field>
+                        <lightning-output-field field-name='Nombre_Jour__c'></lightning-output-field>
+                    </div>
+                    <div class="slds-size_1-of-3">
+                        <lightning-record-view-form record-id={client} object-api-name="Lv_Client__c" layout-type="Compact" mode="view">
+                            <lightning-output-field field-name='Name'></lightning-output-field>
+                            <lightning-output-field field-name='Lv_Prenom__c'></lightning-output-field>
+                            <lightning-output-field field-name='Lv_Email__c'></lightning-output-field>
+                            <lightning-output-field field-name='Lv_Telephone__c'></lightning-output-field>
+                            <lightning-output-field field-name='Lv_Adresse__c'></lightning-output-field>
+                        </lightning-record-view-form>
+                    </div>
+    
+                    <div class="slds-size_1-of-3">
+                        <lightning-record-view-form record-id={vehicule} object-api-name="Lv_Vehicule__c" layout-type="Compact" mode="view">
+                            <lightning-output-field field-name='Lv_Modele__c'></lightning-output-field>
+                            <lightning-output-field field-name='Lv_Couleur__c'></lightning-output-field>
+                            <lightning-output-field field-name='Lv_Matricule__c'></lightning-output-field>
+                        </lightning-record-view-form>
+                    </div>
                 </div>
-                <div class="slds-size_1-of-3">
-                    <lightning-record-view-form record-id={client} object-api-name="Lv_Client__c" layout-type="Compact" mode="view">
-                        <lightning-output-field field-name='Name'></lightning-output-field>
-                        <lightning-output-field field-name='Lv_Prenom__c'></lightning-output-field>
-                        <lightning-output-field field-name='Lv_Email__c'></lightning-output-field>
-                        <lightning-output-field field-name='Lv_Telephone__c'></lightning-output-field>
-                        <lightning-output-field field-name='Lv_Adresse__c'></lightning-output-field>
-                    </lightning-record-view-form>
-                </div>
-
-                <div class="slds-size_1-of-3">
-                    <lightning-record-view-form record-id={vehicule} object-api-name="Lv_Vehicule__c" layout-type="Compact" mode="view">
-                        <lightning-output-field field-name='Lv_Modele__c'></lightning-output-field>
-                        <lightning-output-field field-name='Lv_Couleur__c'></lightning-output-field>
-                        <lightning-output-field field-name='Lv_Matricule__c'></lightning-output-field>
-                    </lightning-record-view-form>
-                </div>
-            </div>
-        </lightning-record-view-form>
+            </lightning-record-view-form>
+        </div>
     </lightning-card>
 </template>

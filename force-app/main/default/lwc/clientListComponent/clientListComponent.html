@@ -1,6 +1,6 @@
 <template>
     <lightning-card title="Liste Clients" icon-name="standard:customers">
-        <div class="slds-p-around_medium">
+        <div class="slds-box slds-m-around_medium">
             <template if:true={clients}>
                 <lightning-layout multiple-rows="true" pull-to-boundary="small">
                     <template for:each={clients} for:item="client">

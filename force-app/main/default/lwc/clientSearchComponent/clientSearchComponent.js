@@ -17,13 +17,6 @@ export default class ClientSearchComponent extends LightningElement {
         console.log('type numero '+ typeof this.numero);
         searchClient({numero: Number(this.numero), prenom: this.prenom,  nom: this.nom}).then(result => {
             if(result.error == false){
-                //let clients = JSON.parse(result.clients);
-                /*if(clients.length == 1){
-                    const selectClientToReservationEvent = new CustomEvent('selectclienttoreservationevent',{
-                        detail: clients[0].Id
-                    });
-                    this.dispatchEvent(selectClientToReservationEvent);
-                }*/
                 const clientListEvent = new CustomEvent('clientlistevent', {
                     detail: JSON.parse(result.clients)
                 });
