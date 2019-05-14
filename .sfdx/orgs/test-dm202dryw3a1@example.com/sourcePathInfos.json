@@ -301,16 +301,14 @@
     [
         "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\layouts\\Lv_Reservation__c-Reservation Layout.layout-meta.xml",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\layouts\\Lv_Reservation__c-Reservation Layout.layout-meta.xml",
             "isDirectory": false,
-            "size": 2002,
-            "modifiedTime": 1557704414509,
-            "changeTime": 1557704414509,
-            "contentHash": "9a41fc56519071efca8cd348d2e7e8e33f903b59",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 2790,
+            "modifiedTime": 1557825871888,
+            "changeTime": 1557825871888,
+            "contentHash": "7f7454c7a0f81fa832b3eabd0e396e0e5d416c1d"
         }
     ],
     [
@@ -596,7 +594,7 @@
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\lwc\\reservationLayoutComponent\\reservationLayoutComponent.html",
             "isDirectory": false,
             "size": 2312,
-            "modifiedTime": 1557763345970,
+            "modifiedTime": 1557767910396,
             "changeTime": 1557763345970,
             "contentHash": "ffaf9e02e040206292b129b8d155e31d5de3b301",
             "isMetadataFile": false,
@@ -610,8 +608,8 @@
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\lwc\\reservationLayoutComponent\\reservationLayoutComponent.js",
             "isDirectory": false,
             "size": 3355,
-            "modifiedTime": 1557755045008,
-            "changeTime": 1557755045008,
+            "modifiedTime": 1557766325169,
+            "changeTime": 1557766325169,
             "contentHash": "8f9010d724d81ed80c6b472695dd799173b0a949",
             "isMetadataFile": false,
             "state": "u",
@@ -825,15 +823,15 @@
     [
         "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\lwc\\vehiculeSearchComponent\\vehiculeSearchComponent.html",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\lwc\\vehiculeSearchComponent\\vehiculeSearchComponent.html",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1929,
             "modifiedTime": 1557764155929,
             "changeTime": 1557764155929,
-            "isWorkspace": false,
-            "contentHash": "d7d7a34b8f917874959e6983deac298de65e11c9"
+            "contentHash": "d7d7a34b8f917874959e6983deac298de65e11c9",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -1034,16 +1032,14 @@
     [
         "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\objects\\Lv_Reservation__c",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\objects\\Lv_Reservation__c",
             "isDirectory": true,
-            "size": 0,
-            "modifiedTime": 1557704414523,
-            "changeTime": 1557704414523,
-            "contentHash": "be748bccdd0aa934e547de290a332f1700a4644f",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 0,
+            "modifiedTime": 1557825871819,
+            "changeTime": 1557825871819,
+            "contentHash": "e4ca41fcd421f4a5db86a666b54e7e859a348788"
         }
     ],
     [
@@ -1229,61 +1225,53 @@
     [
         "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
             "isDirectory": false,
-            "size": 22192,
-            "modifiedTime": 1557704414527,
-            "changeTime": 1557704414527,
-            "contentHash": "7897cb2ee7058704f1c85fa626c6d5935fb2736d",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 22497,
+            "modifiedTime": 1557825872015,
+            "changeTime": 1557825872015,
+            "contentHash": "6d7c48decd6c4d8eb84065098610c9666bfbac97"
         }
     ],
     [
         "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 6532,
-            "modifiedTime": 1557704414528,
-            "changeTime": 1557704414528,
-            "contentHash": "bdcad48c0095584f2dead979fe69b11edc61e02e",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 7344,
+            "modifiedTime": 1557825871919,
+            "changeTime": 1557825871919,
+            "contentHash": "932d095282d01db5ea6876964b92d23e18c37185"
         }
     ],
     [
         "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 6532,
-            "modifiedTime": 1557704414528,
-            "changeTime": 1557704414528,
-            "contentHash": "bdcad48c0095584f2dead979fe69b11edc61e02e",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 7344,
+            "modifiedTime": 1557825872056,
+            "changeTime": 1557825872056,
+            "contentHash": "932d095282d01db5ea6876964b92d23e18c37185"
         }
     ],
     [
         "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 6882,
-            "modifiedTime": 1557704414529,
-            "changeTime": 1557704414529,
-            "contentHash": "700e172eb43fe4f6a9bb78f5259b835c9f1a1151",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 7682,
+            "modifiedTime": 1557825872039,
+            "changeTime": 1557825872039,
+            "contentHash": "f7c454049d06de3811786e49a0d8e157f90c26d6"
         }
     ],
     [
@@ -1405,14 +1393,14 @@
     [
         "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\lwc\\reservationDetailsComponent\\reservationDetailsComponent.html",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\lwc\\reservationDetailsComponent\\reservationDetailsComponent.html",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2315,
             "modifiedTime": 1557764236490,
             "changeTime": 1557764236490,
-            "contentHash": "aa4199b6d4a8d4df0c675411ed9f06da97e847e6"
+            "contentHash": "aa4199b6d4a8d4df0c675411ed9f06da97e847e6",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -1478,6 +1466,97 @@
             "contentHash": "6e113186922a59989f81e0fa4a58ac5e6380124b",
             "isMetadataFile": true,
             "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\objects\\Lv_Reservation__c\\fields\\Client__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\objects\\Lv_Reservation__c\\fields\\Client__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 511,
+            "modifiedTime": 1557825871826,
+            "changeTime": 1557825871826,
+            "contentHash": "a97818291180c77a4c753e86fc2a514291f1ef1b"
+        }
+    ],
+    [
+        "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\objects\\Lv_Reservation__c\\fields\\Date_Effective__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\objects\\Lv_Reservation__c\\fields\\Date_Effective__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 322,
+            "modifiedTime": 1557825871834,
+            "changeTime": 1557825871834,
+            "contentHash": "6d437f66b21dec987a064631bfc129ef72510d8b"
+        }
+    ],
+    [
+        "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\objects\\Lv_Reservation__c\\fields\\Date_Reservation__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\objects\\Lv_Reservation__c\\fields\\Date_Reservation__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 326,
+            "modifiedTime": 1557825871841,
+            "changeTime": 1557825871841,
+            "contentHash": "55b94964be8137d571514417405a7a3a0a851c76"
+        }
+    ],
+    [
+        "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\objects\\Lv_Reservation__c\\fields\\Missions__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\objects\\Lv_Reservation__c\\fields\\Missions__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 347,
+            "modifiedTime": 1557825871848,
+            "changeTime": 1557825871848,
+            "contentHash": "b5406390712acb480ac6d075aa5826f2edd7a383"
+        }
+    ],
+    [
+        "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\objects\\Lv_Reservation__c\\fields\\Nombre_Jour__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\objects\\Lv_Reservation__c\\fields\\Nombre_Jour__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 396,
+            "modifiedTime": 1557825871858,
+            "changeTime": 1557825871858,
+            "contentHash": "bea952f59051ffefeccc803806362144b46432ac"
+        }
+    ],
+    [
+        "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\objects\\Lv_Reservation__c\\fields\\Vehicule__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\objects\\Lv_Reservation__c\\fields\\Vehicule__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 517,
+            "modifiedTime": 1557825871865,
+            "changeTime": 1557825871865,
+            "contentHash": "1d351b35fb947f20186cc85dc656d221c0099779"
+        }
+    ],
+    [
+        "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\objects\\Lv_Reservation__c\\fields",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\Abdoulaye DIOP\\git\\location-vehicule\\force-app\\main\\default\\objects\\Lv_Reservation__c\\fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1557825871858,
+            "changeTime": 1557825871858,
+            "contentHash": "c42cdb9dc0255dd461d61d22ca298dad8b2d9c58"
         }
     ]
 ]
